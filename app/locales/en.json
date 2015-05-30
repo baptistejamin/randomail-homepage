@@ -3,12 +3,12 @@
 		"name": "Home",
 		"baseline" : {
 			"h1" : "Manage your e-mails like a boss",
-			"h5" : "Create hundreds e-mail aliases to prevent from spam",
+			"h5" : "Create hundreds of e-mail aliases to prevent spam",
 			"btn" : "Get started, it's free!"
 		},
 		"e_mails_on_the_fly" : {
 			"h5" : "Create e-mails on the fly",
-			"p" : "With Randomail, you can create hundreds of e-mails. Create a new alias when you sign-up on a website. There is a Google Chrome extension for that. It prevent you from identity leaks and it works perfect with Lastpass or 1-Password."
+			"p" : "With Randomail, you can create hundreds of e-mails. Create a new alias when you sign-up on a website. There is a Google Chrome extension for that. It prevent you from identity leaks and it works perfect with Lastpass or 1Password."
 		},
 		"on_your_mailbox" : {
 			"h5" : "Receive it on your Mailbox",
@@ -16,16 +16,16 @@
 		},
 		"manage_it" : {
 			"h5" : "Manage it. As you want",
-			"p" : "You can manage your own domain name to make aliases like me@myname.com . You can use advanced filters, use PGP. You can even forward it to your wife automatically!"
+			"p" : "You can manage your own domain name to make aliases like me@myname.com. You can use advanced filters, use PGP. You can even automatically forward it to your wife!"
 		},
-		"demo": "Randomail can help you everywhere you need it. A seller ask you for an e-mail address? Generate a Randomail alias!",
+		"demo": "Randomail can help you everywhere you need it. Generate a Randomail alias everytime a merchant store asks for your e-mail address!",
 		"the_best" : {
 			"h3" : "The best disposable e-mail solution",
-			"h5" : "(And if you find a better one, tell us)"
+			"h5" : "(If you find a better one, tell us)"
 		},
 		"bottom_action" : {
 			"h3" : "Let's get started",
-			"h5" : "(We promise, you will not regret it)",
+			"h5" : "(We promise, you'll have no regret)",
 			"btn": "Create my free account"
 		}
 	},
@@ -38,7 +38,7 @@
 			},
 			{
 				"name":"Why premium?",
-				"content": "Randomail is a small service, and we need money to keep the service online. And we are students too, so we need to live ;)"
+				"content": "Randomail is a small service: we need money to keep the service online. We are students too, so we need to live ;)"
 			},
 			{
 				"name":"I lost my password",
@@ -54,11 +54,11 @@
 			},
 			{
 				"name":"How to have a custom domain name?",
-				"content": "You need to upgrade to a premium account. Then, go to your dashboard, on the settings menu (on the left), in the domains settings to add the new domain. <br /> When domain is added, you have to update settings on your DNS provider to link your domain with our servers. <br /> If you have any questions, feel free to contact the support."
+				"content": "You need to upgrade to a premium account. Then, go to your dashboard in the settings menu (on the left), in the domains settings to add the new domain. <br /> When domain is added, you have to update settings on your DNS provider to link your domain with our servers. <br /> If you have any questions, feel free to contact the support."
 			},
 			{
 				"name":"How to send anonymous messages? (upcoming feature)",
-				"content" : "You need to upgrade to a premium account. You can then use your webmail (Gmail), or Thunderbird to send e-mails via our SMTP servers <br /> If you have any questions, feel free to contact the support."
+				"content" : "You need to upgrade to a Premium account. You can then use your webmail (Gmail), or Thunderbird to send e-mails via our SMTP servers <br /> If you have any questions, feel free to contact the support."
 			},
 			{
 				"name":"How to forward mails to multiple mailboxes?",
@@ -76,7 +76,7 @@
 	},
 	"features": {
 		"name": "Features",
-		"demo" : "And an app for everybody, anywhere",
+		"demo" : "An app for everybody, anywhere",
 		"plans":[
 			{
 				"name" : "Lite",
@@ -89,7 +89,7 @@
 					"No SMTP",
 					"No PGP",
 					"Custom rules",
-					"E-mail auto-destruction",
+					"Self-destructible e-mails",
 					"Spam filter"
 				]
 			},
@@ -104,7 +104,7 @@
 					"SMTP account (upcoming feature)",
 					"PGP (upcoming feature)",
 					"Custom rules",
-					"E-mail auto-destruction",
+					"Self-destructible e-mails",
 					"Spam filter"
 				]
 			},
@@ -119,7 +119,7 @@
 					"SMTP account (upcoming feature)",
 					"PGP (upcoming feature)",
 					"Custom rules",
-					"E-mail auto-destruction",
+					"Self-destructible e-mails",
 					"Spam filter"
 				]
 			}
@@ -127,18 +127,18 @@
 	},
 	"about_us": {
 		"name": "About Us",
-		"description": "Built in 2012, Randomail is now on it's third version with more 8000 users and 6 millions e-mails forwarded",
+		"description": "Built in 2012, Randomail is now in it's third version with more 8000 active users and 6 millions e-mails forwarded",
 		"founders_h2" : "Founders",
 		"founders" : [
 			{
 				"name" : "Baptiste Jamin",
 				"img" : "https://pbs.twimg.com/profile_images/378800000379050808/76c12398d0b8e03e2597fb087f33cb17.png",
-				"description" : "French student in engineering school, i'm 21 years old. I'm freelancer too. I started working on Randomail when I was 18. I'm the developer and administrator of the platform."
+				"description" : "French student in engineering school, I'm 21 years old. I'm a freelancer too. I started working on Randomail when I was 18. I'm the developer and administrator of the platform."
 			},
 			{
 				"name" : "Hugo Mroczkowsi",
 				"img" : "https://pbs.twimg.com/profile_images/550285742547939328/pIL6HSuz.jpeg",
-				"description" : "I'm 18 years old. And i'm now in the north of the France, in Lille. I'm student in engineering school too. I started working on Randomail when I was 16."
+				"description" : "I'm 18 years old. And I'm now located in the north of France, in Lille. I'm student in an engineering school too. I started working on Randomail when I was 16."
 			}
 		],
 		"helpers_h2" : "They helped us",
@@ -146,7 +146,7 @@
 			{
 				"name" : "Quentin de Quelen",
 				"img" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/017/349/2152e81.jpg",
-				"description" : "Quentin  is developper and designer and he designed the new Randomail logo, and UX. Thanks!"
+				"description" : "Quentin is a developer and designer. He crafted the new Randomail logo, as well as its UX. Thanks!"
 			},
 			{
 				"name" : "Lucas Tarasconi",
@@ -178,7 +178,7 @@
 			},
 			{
 				"name":"IRL",
-				"content": "We like to meet our users! Check us on twitter <a href='http://twitter.com/baptistejamin'>@baptistejamin</a> & <a href='http://twitter.com/hugo_mro'>@hugo_mro</a>"
+				"content": "We like to meet our users! Check us on Twitter <a href='http://twitter.com/baptistejamin'>@baptistejamin</a> & <a href='http://twitter.com/hugo_mro'>@hugo_mro</a>"
 			}
 		]
 	},
