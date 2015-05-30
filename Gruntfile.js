@@ -60,7 +60,7 @@ module.exports = function (grunt) {
         },
 
         useminPrepare: {
-            html: 'dist/**/.html'
+            html: 'dist/**/*.html'
         },
 
         usemin: {
@@ -86,7 +86,7 @@ module.exports = function (grunt) {
 
     // Tell Grunt what to do when we type "grunt" into the terminal
     grunt.registerTask('default', [
-        'copy-ressources', 'includes', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'rev', 'usemin'
+        'clean', 'i18n', 'copy:ressources', 'copy:template-en', 'copy:template-fr', 'includes', 'copy:tmp-dist', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'rev', 'usemin'
     ]);
 
     grunt.registerTask('include', [
