@@ -1,20 +1,17 @@
 # Randomail Homepage
 
-This project is the Randomail v3 homepage. Randomail is a disposeable e-mail system that allows you to prevent from Spam.
+This project is the Randomail v3 homepage. Randomail is a disposeable e-mail system that allows you to prevent spam from being delivered to your inbox.
 
-This project uses materializecss and and is multilingual
+This project uses `materializecss` and and is multilingual.
 
-## How to build id
+## How to build
 
-From terminal:
+In a terminal:
 
 ```
-npm install install -g grunt
-npm install install -g bower
-cd app
-bower install
-cd ..
-grunt
+npm install install -g grunt bower
+cd app && bower install
+cd ../ && grunt
 ```
 
-Output will be in dist/
+Output will be stored in the dist/ directory.
