@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Randomail : <%= features.name %></title>
+
+    include "templates/_css_includes.html"
+</head>
+<body>
+
+include "templates/_nav.html"
+
+<style>
+    body {
+        background: #eee !important;
+    }
+
+    .features {
+        margin-top: 10px;
+    }
+</style>
+<div class="container features">
+    <h1>Features</h1>
+    <h1><%= features.name %></h1>
+
+    <div class="row">
+    <% _.each(features.plans, function(plan) { %>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content center">
+                        <h5><%= plan.name %></h5>
+                        <h4><%= plan.price %></h4>
+
+                        <% _.each(plan.features, function(feature) { %>
+                        <p><%= feature %></p>
+                        <% }); %>
+                    </div>
+                </div>
+            </div>
+    <% }); %>
+    </div>
+
+    
+    <div class="row">
+        <div class="card">
+            <div class="card-content">
+                <div class="row">
+                    <div class="col s12 m8">
+                        <img src="/img/demo.png" class="responsive-img wow bounceInUp">
+                    </div>
+
+                    <div class="col s12 m4">
+                        <h5><%= features.demo %></h5>
+                        <a href="http://dashboard.randomail.net" class="download-link blue waves-effect waves-light btn-large wow bounceInRight"><i
+                                class="mdi-file-cloud left"></i>Web</a>
+                        <a href="https://chrome.google.com/webstore/detail/randomail/cphbmgkjibjkgpadoladcajdaldaepgg" class="download-link red waves-effect waves-light btn-large wow bounceInRight"><i
+                                class="mdi-hardware-laptop-chromebook left wow bounceInRight"></i>Chrome extension</a>
+                        <a href="https://play.google.com/store/apps/details?id=net.randomail.app" class="download-link waves-effect waves-light btn-large wow bounceInRight"><i
+                                class="mdi-action-android left"></i>Android
+                            App</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+include "templates/_footer.html"
+
+include "templates/_js_includes.html"
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+nav .brand-logo {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+nav .brand-logo-img {
+    background: url('/img/icon40.png');
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    float: left;
+}
+
+#logo-container .text {
+    float: left;
+}
+
+.action-btn {
+    height: 70px;
+    line-height: 70px;
+    width: 270px;
+}
+
+.download-link {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#index-banner h1 {
+    font-size: 3.5em;
+    text-shadow: 1px 1px 11px rgba(0, 0, 0, 1);
+}
+
+#index-banner h5 {
+    font-size: 2.2em;
+    text-shadow: 1px 1px 11px rgba(0, 0, 0, 1);
+}
+
+#middle-container h3 {
+    text-shadow: 1px 1px 11px rgba(0, 0, 0, 1);
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: white;
+}
+
+.parallax-container {
+    min-height: 430px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    #logo-container .text {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    #index-banner h1 {
+        font-size: 2.5em;
+        text-shadow: 1px 1px 11px rgba(0, 0, 0, 1);
+    }
+
+    #index-banner h5 {
+        font-size: 1.7em;
+        text-shadow: 1px 1px 11px rgba(0, 0, 0, 1);
+    }
+
+    .parallax-container .section {
+        top: 10%;
+    }
+}
+
+@media (max-width: 320px) {
+    #index-banner h1 {
+        font-size: 2.2em;
+        text-shadow: 1px 1px 11px rgba(0, 0, 0, 1);
+    }
+
+    #index-banner h5 {
+        font-size: 1.7em;
+        text-shadow: 1px 1px 11px rgba(0, 0, 0, 1);
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+footer.page-footer {
+    margin: 0;
+}

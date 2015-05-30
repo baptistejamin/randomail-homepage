@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "authors": [
+    "Baptiste Jamin <baptistejamin@gmail.com>"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "yui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.96.1",
+    "wow": "~1.1.2"
+  }
+}

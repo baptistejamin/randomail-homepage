@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Randomail : <%= contact_us.name %></title>
+
+    include "templates/_css_includes.html"
+</head>
+<body>
+
+include "templates/_nav.html"
+
+
+<style>
+    body {
+        background: #eee !important;
+    }
+
+    .contact {
+        margin-top: 10px;
+    }
+</style>
+
+<div class="container contact">
+    <h1><%= contact_us.name %></h1>
+
+    <% _.each(contact_us.posts, function(post) { %>
+        <div class="row">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"><%= post.name %></span>
+
+                    <p><%= post.content %></p>
+
+                </div>
+            </div>
+        </div>
+    <% }); %>
+</div>
+
+include "templates/_footer.html"
+
+include "templates/_js_includes.html"
+
+</body>
+</html>

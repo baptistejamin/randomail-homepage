@@ -1,0 +1,225 @@
+{
+	"home": {
+		"name": "Home",
+		"baseline" : {
+			"h1" : "Manage your e-mails like a boss",
+			"h5" : "Create hundreds e-mail aliases to prevent from spam",
+			"btn" : "Get started, it's free!"
+		},
+		"e_mails_on_the_fly" : {
+			"h5" : "Create e-mails on the fly",
+			"p" : "With Randomail, you can create hundreds of e-mails. Create a new alias when you sign-up on a website. There is a Google Chrome extension for that. It prevent you from identity leaks and it works perfect with Lastpass or 1-Password."
+		},
+		"on_your_mailbox" : {
+			"h5" : "Receive it on your Mailbox",
+			"p" : "When you receive a new e-mail on a Randomail alias, this e-mail is forwarded to your real mailbox (Gmail, Hotmail, etc). You can reply to e-mails using Randomail aliases."
+		},
+		"manage_it" : {
+			"h5" : "Manage it. As you want",
+			"p" : "You can manage your own domain name to make aliases like me@myname.com . You can use advanced filters, use PGP. You can even forward it to your wife automatically!"
+		},
+		"demo": "Randomail can help you everywhere you need it. A seller ask you for an e-mail address? Generate a Randomail alias!",
+		"the_best" : {
+			"h3" : "The best disposable e-mail solution",
+			"h5" : "(And if you find a better one, tell us)"
+		},
+		"bottom_action" : {
+			"h3" : "Let's get started",
+			"h5" : "(We promise, you will not regret it)",
+			"btn": "Create my free account"
+		}
+	},
+	"faq": {
+		"name": "F.A.Q",
+		"posts":[
+			{
+				"name":"What is an alias?",
+				"content": "An randomail alias is a fake mailbox where people can send e-mails to it. Theses e-mails are then forwarded to your real mailbox."
+			},
+			{
+				"name":"Why premium?",
+				"content": "Randomail is a small service, and we need money to keep the service online. And we are students too, so we need to live ;)"
+			},
+			{
+				"name":"I lost my password",
+				"content": "Just click 'Forgot your password' on the dashboard",
+				"link": {
+					"name" : "Here is the link to recover it.",
+					"href" : "http://dashboard.randomail.net/#/login"
+				}
+			},
+			{
+				"name":"How to stop messages on a Randomail alias",
+				"content": "Go to your dashboard and click on the alias. A menu will appears. Just click on pause, and then, you will not receive messages on this alias."
+			},
+			{
+				"name":"How to have a custom domain name?",
+				"content": "You need to upgrade to a premium account. Then, go to your dashboard, on the settings menu (on the left), in the domains settings to add the new domain. <br /> When domain is added, you have to update settings on your DNS provider to link your domain with our servers. <br /> If you have any questions, feel free to contact the support."
+			},
+			{
+				"name":"How to send anonymous messages? (upcoming feature)",
+				"content" : "You need to upgrade to a premium account. You can then use your webmail (Gmail), or Thunderbird to send e-mails via our SMTP servers <br /> If you have any questions, feel free to contact the support."
+			},
+			{
+				"name":"How to forward mails to multiple mailboxes?",
+				"content" : "You have to go to your dashboard, then in the settings menu (on the left), to the 'accounts' tab"
+			},
+			{
+				"name":"My question is not in the list",
+				"content" : "You can contact us :)",
+				"link": {
+					"name" : "Support",
+					"href" : "contact.html"
+				}
+			}
+		]
+	},
+	"features": {
+		"name": "Features",
+		"demo" : "And an app for everybody, anywhere",
+		"plans":[
+			{
+				"name" : "Lite",
+				"price" : "Free",
+				"features" : [
+					"100 active aliases",
+					"2 replies / day",
+					"Default domain (randomail.net)",
+					"Link 1 account",
+					"No SMTP",
+					"No PGP",
+					"Custom rules",
+					"E-mail auto-destruction",
+					"Spam filter"
+				]
+			},
+			{
+				"name" : "Premium",
+				"price" : "2$",
+				"features" : [
+					"Unlimited aliases",
+					"<b>20 replies / day</b>",
+					"<b>2 custom domains</b>",
+					"<b>Link 10 accounts</b>",
+					"SMTP account (upcoming feature)",
+					"PGP (upcoming feature)",
+					"Custom rules",
+					"E-mail auto-destruction",
+					"Spam filter"
+				]
+			},
+			{
+				"name" : "Pro",
+				"price" : "8$",
+				"features" : [
+					"Unlimited aliases",
+					"<b>Unlimited replies</b>",
+					"<b>10 custom domains</b>",
+					"<b>Link 50 accounts</b>",
+					"SMTP account (upcoming feature)",
+					"PGP (upcoming feature)",
+					"Custom rules",
+					"E-mail auto-destruction",
+					"Spam filter"
+				]
+			}
+		]
+	},
+	"about_us": {
+		"name": "About Us",
+		"description": "Built in 2012, Randomail is now on it's third version with more 8000 users and 6 millions e-mails forwarded",
+		"founders_h2" : "Founders",
+		"founders" : [
+			{
+				"name" : "Baptiste Jamin",
+				"img" : "https://pbs.twimg.com/profile_images/378800000379050808/76c12398d0b8e03e2597fb087f33cb17.png",
+				"description" : "French student in engineering school, i'm 21 years old. I'm freelancer too. I started working on Randomail when I was 18. I'm the developer and administrator of the platform."
+			},
+			{
+				"name" : "Hugo Mroczkowsi",
+				"img" : "https://pbs.twimg.com/profile_images/550285742547939328/pIL6HSuz.jpeg",
+				"description" : "I'm 18 years old. And i'm now in the north of the France, in Lille. I'm student in engineering school too. I started working on Randomail when I was 16."
+			}
+		],
+		"helpers_h2" : "They helped us",
+		"helpers" : [
+			{
+				"name" : "Quentin de Quelen",
+				"img" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/017/349/2152e81.jpg",
+				"description" : "Quentin  is developper and designer and he designed the new Randomail logo, and UX. Thanks!"
+			},
+			{
+				"name" : "Lucas Tarasconi",
+				"img" : "https://lh5.googleusercontent.com/-7zSmmWKaT6o/VMOq6OxjWuI/AAAAAAAABoQ/ZeRlFQEl8Ww/w709-h708-no/IMG_0121.JPG",
+				"description" : "Lucas designed images for the Randomail video. Thanks!"
+			},
+			{
+				"name" : "Mathieu Mescam",
+				"img" : "https://pbs.twimg.com/profile_images/497740695398936579/0vQow8D6.jpeg",
+				"description" : "Mathieu did some commits on the new Randomail version. Thanks!"
+			},
+			{
+				"name" : "Insy",
+				"img" : "https://avatars1.githubusercontent.com/u/158872?v=3&s=400",
+				"description" : "He did some commits on the Randomail 2 version. Thanks!"
+			}
+		]
+	},
+	"contact_us": {
+		"name": "Contact Us",
+		"posts":[
+			{
+				"name":"E-mail",
+				"content": "At Randomail, we are nice guys and we reply!<br />Feel free to contact us at contact@randomail.net and you need some support or if you want to give us some feedbacks, or just to say hello."
+			},
+			{
+				"name":"Twitter",
+				"content": "We are on twitter to. Just tweet at <a href='http://twitter.com/randomailnet'>@randomailnet</a>."
+			},
+			{
+				"name":"IRL",
+				"content": "We like to meet our users! Check us on twitter <a href='http://twitter.com/baptistejamin'>@baptistejamin</a> & <a href='http://twitter.com/hugo_mro'>@hugo_mro</a>"
+			}
+		]
+	},
+	"terms":{
+		"name" : "Terms & Conditions",
+		"disclaimer" : "<i>Attention! Only the french version of our terms is official.</i>",
+		"intro" : "Randomail.net is a personnal website proposing free e-mail redirections. If you use our 'services' you must agree to the following terms and the french law. We can change these terms at every moment. On each modification, an e-mail is normally sent to each user. If the user does not accept the new conditions, he must delete his account on Randomail.net . User can obtain communication and, if necessary, correction or deletion of information about it. These changes can be made from the dashboard.",
+		"terms_name" : "Terms",
+		"terms" : [
+			"By Signing Up, user must give us a valid e-mail address.",
+			"It is strictly forbidden to use our 'services' for terrorism, pedophilia, violence, racial hatred, threats, hacking, xenophobia, fraud and spam usage.",
+			"User must respect French Law.",
+			"We disclaim any responsibility if your account is hacked. In addition, the user undertakes to use a complex password.",
+			"You must use our 'services' with fair use.",
+			"Only one account per person is allowed.",
+			"User accept that some data can be use for statistical purpose and maintenance.",
+			"In addition, user must understand that some datas posted the dashboard on the website can be stored for a good operation ."
+		],
+		"limitations_name": "Limitation of Liability",
+		"Limitations" :[
+			"Randomail.net and / or its founders has / have no obligation of result.",
+			"User agrees not to sue Randomail.net and / or one of its founders in case of default or non-delivery and in case of hacking.",
+			"On his part, Randomail.net agree to provide quality service and to not transmit datas to third parties, execept for justice. Saves are normally done automatically."
+		],
+		"cancellation_name" : "Cancellation",
+		"cancellation" : "User can delete his account at any moment by connecting to the dashboard, in 'settings' tab. Then, some data are moved into a dedicated database for three month. These data can only be use for judicature usage. Three month after resiltiation, these datas are deleted. These measures are done to prevent from personal datas corrupting. Some datas like the owner's email address and the label are deleted three month after deletion. In case of abuse, Randomail.net can delete an account and/or redirections without any notice and the user agrees not to sue Randomail.net and / or one of its founders in this case.",
+		"policy_privacy" : "Policy and privacy",
+		"collected_data_name" : "Collected data",
+		"collected_data" : [
+			"Randomail.net stores your IP address and your e-mail address. Randomail.net can store some cookies  to keep users connected. Google Analytics can store some cookie  for anonymous statistics purposes.",
+			"Logs are stored for six month. Theses data can be used the judicature usage.",
+			"E-mails are processed by our system and sent to each receiver. Some data like the sender e-mail address and the receiver e-mail address can be stored for judicature usage. We don't store messages and attachments."
+		],
+		"privacy_name" : "Privacy",
+		"pricacy" : [
+			"Randomail.net doesn't yields personal datas to third parties, exept judicature."
+		],
+		"data_deletion_name" : "Data deletion",
+		"data_deletion" : [
+			"User can obtain communication and, if necessary, correction or deletion of information about it. These changes can be made from the dashboard."
+		]
+
+	}
+}

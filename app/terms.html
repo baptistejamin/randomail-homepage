@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Randomail : Terms</title>
+
+    include "templates/_css_includes.html"
+</head>
+<body>
+
+include "templates/_nav.html"
+
+
+<style>
+    body {
+        background: #eee !important;
+    }
+
+    .faq {
+        margin-top: 10px;
+    }
+</style>
+
+<div class="container faq">
+    <h1><%= terms.name %></h1>
+
+    <div class="row">
+        <div class="card">
+            <div class="card-content">
+                <i><%= terms.disclaimer %></i>
+
+                <p><%= terms.intro %></p>
+
+                <h3><%= terms.terms_name %></h3>
+
+                <ul>
+                    <% _.each(terms.terms, function(term) { %>
+                        <li><%= term %></li>
+                    <% }); %>
+                </ul>
+
+                <h3><%= terms.limitations_name %></h3>
+
+                <ul>
+                    <% _.each(terms.Limitations, function(Limitation) { %>
+                        <li><%= Limitation %></li>
+                    <% }); %>
+                </ul>
+
+                <h3><%= terms.cancellation_name %></h3>
+
+                <p><%= terms.cancellation %></p>
+            </div>
+        </div>
+    </div>
+
+    <h1><%= terms.policy_privacy %></h1>
+
+    <div class="row">
+        <div class="card">
+            <div class="card-content">
+                <h3><%= terms.collected_data_name %></h3>
+
+                <% _.each(terms.collected_data, function(collected_data) { %>
+                    <li><%= collected_data %></li>
+                <% }); %>
+
+                <h3><%= terms.privacy_name %></h3>
+                <% _.each(terms.pricacy, function(pricacy) { %>
+                    <li><%= pricacy %></li>
+                <% }); %>
+
+                <h3><%= terms.data_deletion_name %></h3>
+                <% _.each(terms.data_deletion, function(data_deletion) { %>
+                    <li><%= data_deletion %></li>
+                <% }); %>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+include "templates/_footer.html"
+
+include "templates/_js_includes.html"
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Randomail</title>
+
+    include "templates/_css_includes.html"
+</head>
+<body>
+
+include "templates/_nav.html"
+
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+
+            <h1 class="header center text-lighten-2"><%= home.baseline.h1 %></h1>
+
+            <div class="row center">
+                <h5 class="header col s12 light"><%= home.baseline.h5 %></h5>
+            </div>
+
+            <div class="row center">
+                <a href="http://dashboard.randomail.net"
+                   class="action-btn btn-large waves-effect waves-light blue darken-1 wow wobble" ><%= home.baseline.btn %></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="parallax"><img src="/img/background1.jpg" alt="Mailboxes background img 2"></div>
+</div>
+
+
+<div class="container">
+    <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col s12 m4 ">
+                <div class="icon-block">
+                    <h2 class="center blue-text"><i class="mdi-image-flash-on"></i></h2>
+                    <h5 class="center"><%= home.e_mails_on_the_fly.h5 %></h5>
+
+                    <p class="light"><%= home.e_mails_on_the_fly.p %></p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center blue-text"><i class="mdi-communication-email"></i></h2>
+                    <h5 class="center"><%= home.on_your_mailbox.h5 %></h5>
+
+                    <p class="light"><%= home.on_your_mailbox.p %></p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center blue-text"><i class="mdi-action-settings"></i></h2>
+                    <h5 class="center"><%= home.manage_it.h5 %></h5>
+
+                    <p class="light"><%= home.manage_it.p %></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m8">
+                <img src="/img/demo.png" class="responsive-img wow bounceInUp">
+            </div>
+
+            <div class="col s12 m4">
+                <p><%= home.demo %></p>
+                <a href="http://dashboard.randomail.net" class="download-link blue waves-effect waves-light btn-large wow bounceInRight"><i
+                        class="mdi-file-cloud left"></i>Web</a>
+                <a href="https://chrome.google.com/webstore/detail/randomail/cphbmgkjibjkgpadoladcajdaldaepgg" class="download-link red waves-effect waves-light btn-large wow bounceInRight"><i
+                        class="mdi-hardware-laptop-chromebook left wow bounceInRight"></i>Chrome extension</a>
+                <a href="https://play.google.com/store/apps/details?id=net.randomail.app" class="download-link waves-effect waves-light btn-large wow bounceInRight"><i
+                        class="mdi-action-android left"></i>Android
+                    App</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="middle-container" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h3 class="header col s12"><%= home.the_best.h3 %></h3>
+                <h5 class="header col s12 light"><%= home.the_best.h5 %></h5>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"><img src="/img/background2.jpg" alt="Mailboxes img 2"></div>
+</div>
+
+<div class="container">
+    <div class="section">
+
+        <div class="row center">
+
+            <h3><%= home.bottom_action.h3 %></h3>
+            <h5><%= home.bottom_action.h5 %></h5>
+
+        </div>
+        <div class="row center">
+            <a href="http://dashboard.randomail.net" class="action-btn s4 blue waves-effect waves-light btn-large wow wobble"><%= home.bottom_action.btn %></a>
+        </div>
+
+
+    </div>
+</div>
+
+include "templates/_footer.html"
+
+include "templates/_js_includes.html"
+
+</body>
+</html>
