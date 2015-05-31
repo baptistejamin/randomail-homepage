@@ -1,4 +1,5 @@
 {
+	"lang" : "en",
 	"home": {
 		"name": "Home",
 		"baseline" : {
@@ -226,5 +227,8 @@
 			"User can obtain communication and, if necessary, correction or deletion of information about it. These changes can be made from the dashboard."
 		]
 
+	},
+	"footer" : {
+		"description" : "Created in 2012, Randomail is today on it's third version with more than 8000 users and 6 millions e-mails forwarded. We are a small service and close from our users. If you have any question, problem or feedback, you can contact us at contact@randomail.net or via twitter <a class='white-text' href='http://twitter.com/randomailnet'>@randomailnet</a>"
 	}
 }

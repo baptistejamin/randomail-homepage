@@ -1,4 +1,5 @@
 {
+	"lang" : "fr",
 	"home": {
 		"name": "Acceuil",
 		"baseline" : {
@@ -226,5 +227,8 @@
 			"Conformément aux articles 39 et suivants de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, toute personne peut obtenir communication et, le cas échéant, rectification ou suppression des informations la concernant. Ces modifications peuvent s'effectuer depuis la page membre."
 		]
 
+	},
+	"footer" : {
+		"description" : "Créé en 2012, Randomail en est à sa 3e version avec plus de 8000 utilisateurs et 6 millions d'e-mails redirigés. Nous sommes un petit service et proches de nos utilisateurs. Si vous avez la moindre question, problème ou feedback, contactez nous via contact@randomail.net ou via twitter <a class='white-text' href='http://twitter.com/randomailnet'>@randomailnet</a>"
 	}
 }
