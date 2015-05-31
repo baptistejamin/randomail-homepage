@@ -48,6 +48,13 @@ include "templates/_nav.html"
                         </div>
                         <div class="col s10">
                             <h5><%= p.name %></h5>
+                            <% if (typeof(p.twitter) !== "undefined") { %>
+                            <a href="<%= p.twitter %>"><img src="/img/twitter.png" alt=""></a> 
+                            <% } %>
+                            <% if (typeof(p.linkedin) !== "undefined") { %>
+                            <a href="<%= p.linkedin %>"><img src="/img/linkedin.png" alt=""></a>
+                            <% } %>
+                            <br />
               <span class="black-text">
                 <%= p.description %>
               </span>
@@ -74,9 +81,16 @@ include "templates/_nav.html"
                         </div>
                         <div class="col s10">
                             <h5><%= p.name %></h5>
-              <span class="black-text">
-                <%= p.description %>
-              </span>
+                            <% if (typeof(p.twitter) !== "undefined") { %>
+                            <a href="<%= p.twitter %>"><img src="/img/twitter.png" alt=""></a> 
+                            <% } %>
+                            <% if (typeof(p.linkedin) !== "undefined") { %>
+                            <a href="<%= p.linkedin %>"><img src="/img/linkedin.png" alt=""></a>
+                            <% } %>
+                            <br />
+                              <span class="black-text">
+                                <%= p.description %>
+                              </span>
                         </div>
                     </div>
                 </div>

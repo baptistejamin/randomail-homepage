@@ -134,12 +134,15 @@
 			{
 				"name" : "Baptiste Jamin",
 				"img" : "https://pbs.twimg.com/profile_images/378800000379050808/76c12398d0b8e03e2597fb087f33cb17.png",
-				"description" : "Etudiant en école d'ingenieur, j'ai 21 ans. Je suis égalmenent freelancer. J'ai commencé Randomail à l'age de 18. Je suis le développeur et l'administrateur de la plateforme"
+				"description" : "Etudiant en école d'ingenieur, j'ai 21 ans. Je suis égalmenent freelancer. J'ai commencé Randomail à l'age de 18. Je suis le développeur et l'administrateur de la plateforme",
+				"twitter" : "https://twitter.com/baptistejamin",
+				"linkedin" : "https://www.linkedin.com/in/baptistejamin"
 			},
 			{
 				"name" : "Hugo Mroczkowsi",
 				"img" : "https://pbs.twimg.com/profile_images/550285742547939328/pIL6HSuz.jpeg",
-				"description" : "J'ai 18 ans. Je suis maintenant à Lille et je suis égalmenent étudiant en école d'ingénieur. J'ai commencé Randomail à 16 ans."
+				"description" : "J'ai 18 ans. Je suis maintenant à Lille et je suis égalmenent étudiant en école d'ingénieur. J'ai commencé Randomail à 16 ans.",
+				"twitter" : "http://twitter.com/hugo_mro"
 			}
 		],
 		"helpers_h2" : "Ils nous ont aidé!",
@@ -147,27 +150,35 @@
 			{
 				"name" : "Quentin de Quelen",
 				"img" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/017/349/2152e81.jpg",
-				"description" : "Fondateur de Yool, Quentin est développeur et designer. Il a créé le nouveau logo, et à participé à l'egonomie de la nouvelle version. Merci!"
+				"description" : "Fondateur de Yool, Quentin est développeur et designer. Il a créé le nouveau logo, et à participé à l'egonomie de la nouvelle version. Merci!",
+				"twitter" : "https://twitter.com/Quentin_dQ",
+				"linkedin" : "https://www.linkedin.com/profile/view?id=230391388"
 			},
 			{
 				"name" : "Lucas Tarasconi",
 				"img" : "https://lh5.googleusercontent.com/-7zSmmWKaT6o/VMOq6OxjWuI/AAAAAAAABoQ/ZeRlFQEl8Ww/w709-h708-no/IMG_0121.JPG",
-				"description" : "Lucas a créé les images de la video de Randomail. Merci!"
+				"description" : "Lucas a créé les images de la video de Randomail. Merci!",
+				"twitter" : "https://twitter.com/Farnots"
 			},
 			{
 				"name" : "Mathieu Mescam",
 				"img" : "https://pbs.twimg.com/profile_images/497740695398936579/0vQow8D6.jpeg",
-				"description" : "Mathieu a fait quelques commits sur la nouvelle version de Randomail. Merci!"
+				"description" : "Mathieu a fait quelques commits sur la nouvelle version de Randomail. Merci!",
+				"twitter" : "https://twitter.com/mescamm",
+				"linkedin" : "https://www.linkedin.com/profile/view?id=293734131"
 			},
 			{
 				"name" : "Insy",
 				"img" : "https://avatars1.githubusercontent.com/u/158872?v=3&s=400",
-				"description" : "Administrateur système, il a fait quelques commits sur la version 2 de Randomail. Merci!"
+				"description" : "Administrateur système, il a fait quelques commits sur la version 2 de Randomail. Merci!",
+				"twitter" : "https://twitter.com/sd2310"
 			},
 			{
 				"name" : "Valérian Saliou",
 				"img" : "https://s.gravatar.com/avatar/b4cb8302ee37f985cc76190aaae1b40b?s=400",
-				"description" : "Fondateur de Jappix, il a fait quelques commits sur la version 3 de Randomail. Merci!"
+				"description" : "Fondateur de Jappix, il a fait quelques commits sur la version 3 de Randomail. Merci!",
+				"twitter" : "https://twitter.com/valeriansaliou",
+				"linkedin": "https://www.linkedin.com/profile/view?id=334865135"
 			}
 		]
 	},
