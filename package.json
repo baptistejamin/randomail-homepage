@@ -1,26 +1,19 @@
 {
-  "name": "dashboard",
-  "version": "0.0.4",
+  "name": "Randomail Homepage",
+  "version": "0.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "index.htmp",
   "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "app": "app"
   },
   "author": "Baptiste Jamin <baptistjamin@gmail.com> (http://jamin.me/)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-copy": "~0.5.0",
-    "grunt-contrib-cssmin": "~0.7.0",
-    "grunt-contrib-uglify": "~0.2.7",
     "grunt-i18n": "^0.7.0",
-    "grunt-includes": "^0.5.1",
-    "grunt-rev": "~0.1.0",
-    "grunt-usemin": "~2.0.2"
+    "grunt-includes": "^0.5.1"
   }
 }

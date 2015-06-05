@@ -4,72 +4,35 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         clean: ["dist", '.tmp', 'tmp'],
-         i18n:{
-            src: ['app/*.html'],
-            dest: 'tmp/',
+        i18n: {
+            src: ['tmp/*.html'],
+            dest: 'dist/',
             options: {
-                locales: 'app/locales/*.json',
-                output: 'tmp/',
-                base: 'app/'
+                locales: 'tmp/locales/*.json',
+                output: 'dist/',
+                base: 'tmp/'
             }
         },
         copy: {
-            ressources: {
+            tmp: {
                 expand: true,
                 cwd: 'app/',
-                src: ['favicon.ico', 'bower_components/**', 'js/**', 'font/**', 'css/**', 'img/**'],
+                src: ['favicon.ico', 'bower_components/**', 'js/**', 'font/**', 'css/**', 'img/**', 'locales/*', 'templates/**', '*.html'],
                 dest: 'tmp'
             },
-            'template-en': {
-                expand: true,
-                cwd: 'app/',
-                src: ['templates/**'],
-                dest: 'tmp/en'
-            },
-            'template-fr': {
-                expand: true,
-                cwd: 'app/',
-                src: ['templates/**'],
-                dest: 'tmp/fr'
-            },
-            'tmp-dist': {
+            dist: {
                 expand: true,
                 cwd: 'tmp/',
-                src: ['**/*'],
-                dest: 'dist/'
+                src: ['favicon.ico', 'bower_components/**', 'js/**', 'font/**', 'css/**', 'img/**', 'en/**', 'fr/**'],
+                dest: 'dist'
             }
         },
         includes: {
-            en: {
-                cwd: 'tmp/en',
-                src: ['*.html'], // Source files
-                dest: 'tmp/en', // Destination directory
-                flatten: true
-            },
-            fr: {
-                cwd: 'tmp/fr',
-                src: ['*.html'], // Source files
-                dest: 'tmp/fr', // Destination directory
-                flatten: true
-            }
-        },
-        rev: {
             files: {
-                src: ['dist/**/*.{js,css}']
-            }
-        },
-
-        useminPrepare: {
-            html: 'dist/**/*.html'
-        },
-
-        usemin: {
-            html: ['dist/**/*.html']
-        },
-        uglify: {
-            options: {
-                report: 'min',
-                mangle: false
+                cwd: 'tmp/',
+                src: ['*.html'],
+                dest: 'tmp/',
+                flatten: true
             }
         }
     });
@@ -78,18 +41,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-includes');
     grunt.loadNpmTasks('grunt-i18n');
-    grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-rev');
-    grunt.loadNpmTasks('grunt-usemin');
 
     // Tell Grunt what to do when we type "grunt" into the terminal
     grunt.registerTask('default', [
-        'clean', 'i18n', 'copy:ressources', 'copy:template-en', 'copy:template-fr', 'includes', 'copy:tmp-dist', 'useminPrepare', 'concat', 'uglify', 'cssmin', 'rev', 'usemin'
-    ]);
-
-    grunt.registerTask('include', [
-        'clean', 'i18n', 'copy:ressources', 'copy:template-en', 'copy:template-fr', 'includes', 'copy:tmp-dist'
+        'clean', 'copy:tmp', 'includes', 'i18n', 'copy:dist'
     ]);
 };
