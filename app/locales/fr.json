@@ -1,245 +1,244 @@
 {
-	"lang" : "fr",
-	"home": {
-		"name": "Acceuil",
-		"baseline" : {
-			"h1" : "Quand gérer des mails devient simple",
-			"h5" : "Créez des centaines d'alias mail pour éviter le spam",
-			"btn" : "Créer mon compte"
-		},
-		"e_mails_on_the_fly" : {
-			"h5" : "Créez plein d'emails",
-			"p" : "Avec Randomail, c'est il est possible de créer des centaines d'alias mail. Utilisez ces alias pour s'inscrire sur de nouveaux sites web. Il y a même une extension Google Chrome pour ça. Ceci permet d'éviter les fuites de données, et ça fonctionne très bien avec Lastpass et 1-Password."
-		},
-		"on_your_mailbox" : {
-			"h5" : "Recevez les sur votre boite mail",
-			"p" : "Quand vous recevrez un mail sur un alias Randomail, il est renvoyé vers votre véritable e-mail(Gmail, Hotmail, etc). Vous pouvez mêmer répondre avec une adresse Randomail!"
-		},
-		"manage_it" : {
-			"h5" : "Gérez vos alias",
-			"p" : "Vous pouvez même créer des alias avec votre propre domaine : moi@monnom.fr. Vous pouvez utiliser des règles de filtrage, le PGP. Vous pouvez même rediriger des alias vers plusieurs boites mail!"
-		},
-		"demo": "Randomail vous suit partout. Un marchand vous demande votre e-mail? Génerez un alias Randomail!",
-		"the_best" : {
-			"h3" : "La meilleure solution d'email jetable disponible",
-			"h5" : "(Et si vous en trouvez une autre, dites le nous)"
-		},
-		"bottom_action" : {
-			"h3" : "C'est parti!",
-			"h5" : "(Et vous ne le regreterez pas)",
-			"btn": "Créer mon compte"
-		}
-	},
-	"faq": {
-		"name": "F.A.Q",
-		"posts":[
-			{
-				"name":"C'est quoi un alias?",
-				"content": "Un alias, c'est une fausse adresse sur laquelle les gens peuvent envoyer des mail. Ces mails sont ensuties ré-envoyés vers votre véritable boite mail"
-			},
-			{
-				"name":"Pourquoi le premium?",
-				"content": "Randomail est un petit service, et nous avons besoin de le financer pour maintenir le service. Nous sommes également étudiants, et nous avons besoin de vivre ;)"
-			},
-			{
-				"name":"J'ai perdu mon mot de passe",
-				"content": "Il faut juste cliquer sur 'Mot de passe perdu' sur le dashboard",
-				"link": {
-					"name" : "Voici le lien",
-					"href" : "http://app.randomail.net/#/login"
-				}
-			},
-			{
-				"name":"Comment stopper les messages sur un alias?",
-				"content": "Il faut aller sur le dashboard, cliquer sur l'alias. Un menu va apparaitre et il faudra cliquer sur 'pause'. Les messages seront alors bloqués"
-			},
-			{
-				"name":"Comment avoir son propre nom de domaine?",
-				"content": "Il vous faut un compte premium. Ensuite, allez dans le dashboard, dans les paramètres (sur la droite), et dans l'onglet domaines, ajouter votre domaine. <br /> Quand votre domaine est ajouté, il faudra alors modifier les paramètres DNS chez votre fournisseur pour le domaine. Ceci  va lier votre domaine avec nos serveurs<br /> Si vous avez la moindre question, contactez le support"
-			},
-			{
-				"name":"Comment envoyer des messages anonymes (fonction a venir)",
-				"content" : "Il vous faut un compte premium. Ensuite, utilisez votre webmail (Gmail), ou Thunderbird pour envoyer les mails, via nos servuers SMTP <br /> Si vous avez la moindre question, contactez le support."
-			},
-			{
-				"name":"Comment gérer plusieurs boite mails?",
-				"content" : "Allez sur votre dashboard, et dans l'onglet paramètres (sur la droite), allez dans 'comptes'"
-			},
-			{
-				"name":"Ma question n'est pas dans la liste!",
-				"content" : "Et bien il faut nous contacter :)",
-				"link": {
-					"name" : "Support",
-					"href" : "contact.html"
-				}
-			}
-		]
-	},
-	"features": {
-		"name": "Fonctionnalités",
-		"demo" : "Une app dispobilible pour tout le monde",
-		"plans":[
-			{
-				"name" : "Lite",
-				"price" : "Gratuit",
-				"features" : [
-					"100 alias actifs",
-					"2 réponses / jour",
-					"Domaine par défaut (randomail.net)",
-					"Mutlicompte (1 autre compte)",
-					"Pas de SMTP",
-					"Pas de PGP",
-					"Règles  personnalisées",
-					"Auto-destruction",
-					"Filtre anti-spam"
-				]
-			},
-			{
-				"name" : "Premium",
-				"price" : "2€",
-				"features" : [
-					"Alias illimités",
-					"<b>20 réponses / jour</b>",
-					"<b>2 domaines</b>",
-					"<b>Mutlicompte (10 autres comptes)</b>",
-					"Compte SMTP (à venir)",
-					"PGP (à venir)",
-					"Règles  personnalisées",
-					"Auto-destruction",
-					"Filtre anti-spam"
-				]
-			},
-			{
-				"name" : "Pro",
-				"price" : "8$",
-				"features" : [
-					"Alias illimités",
-					"<b>Réponses illimitées</b>",
-					"<b>10 domaines</b>",
-					"<b>Mutlicompte (50 autres comptes)</b>",
-					"Compte SMTP (à venir)",
-					"PGP (à venir)",
-					"Règles  personnalisées",
-					"Auto-destruction",
-					"Filtre anti-spam"
-				]
-			}
-		]
-	},
-	"about_us": {
-		"name": "A propos",
-		"description": "Créé en 2012, Randomail en est à sa troisième version avec plus de 8000 utilisateurs et 6 millions d'e-mails redirigés",
-		"founders_h2" : "Fondateurs",
-		"founders" : [
-			{
-				"name" : "Baptiste Jamin",
-				"img" : "https://pbs.twimg.com/profile_images/378800000379050808/76c12398d0b8e03e2597fb087f33cb17.png",
-				"description" : "Etudiant en école d'ingenieur, j'ai 21 ans. Je suis égalmenent freelancer. J'ai commencé Randomail à l'age de 18. Je suis le développeur et l'administrateur de la plateforme",
-				"twitter" : "https://twitter.com/baptistejamin",
-				"linkedin" : "https://www.linkedin.com/in/baptistejamin"
-			},
-			{
-				"name" : "Hugo Mroczkowsi",
-				"img" : "https://pbs.twimg.com/profile_images/550285742547939328/pIL6HSuz.jpeg",
-				"description" : "J'ai 18 ans. Je suis maintenant à Lille et je suis égalmenent étudiant en école d'ingénieur. J'ai commencé Randomail à 16 ans.",
-				"twitter" : "http://twitter.com/hugo_mro"
-			}
-		],
-		"helpers_h2" : "Ils nous ont aidé!",
-		"helpers" : [
-			{
-				"name" : "Quentin de Quelen",
-				"img" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/017/349/2152e81.jpg",
-				"description" : "Fondateur de Yool, Quentin est développeur et designer. Il a créé le nouveau logo, et à participé à l'ergonomie de la nouvelle version. Merci!",
-				"twitter" : "https://twitter.com/Quentin_dQ",
-				"linkedin" : "https://www.linkedin.com/profile/view?id=230391388"
-			},
-			{
-				"name" : "Lucas Tarasconi",
-				"img" : "https://lh5.googleusercontent.com/-7zSmmWKaT6o/VMOq6OxjWuI/AAAAAAAABoQ/ZeRlFQEl8Ww/w709-h708-no/IMG_0121.JPG",
-				"description" : "Lucas a créé les images de la video de Randomail. Merci!",
-				"twitter" : "https://twitter.com/Farnots"
-			},
-			{
-				"name" : "Mathieu Mescam",
-				"img" : "https://pbs.twimg.com/profile_images/497740695398936579/0vQow8D6.jpeg",
-				"description" : "Mathieu a fait quelques commits sur la nouvelle version de Randomail. Merci!",
-				"twitter" : "https://twitter.com/mescamm",
-				"linkedin" : "https://www.linkedin.com/profile/view?id=293734131"
-			},
-			{
-				"name" : "Insy",
-				"img" : "https://avatars1.githubusercontent.com/u/158872?v=3&s=400",
-				"description" : "Administrateur système, il a fait quelques commits sur la version 2 de Randomail. Merci!",
-				"twitter" : "https://twitter.com/sd2310"
-			},
-			{
-				"name" : "Valérian Saliou",
-				"img" : "https://s.gravatar.com/avatar/b4cb8302ee37f985cc76190aaae1b40b?s=400",
-				"description" : "Fondateur de Jappix, il a fait quelques commits sur la version 3 de Randomail. Merci!",
-				"twitter" : "https://twitter.com/valeriansaliou",
-				"linkedin": "https://www.linkedin.com/profile/view?id=334865135"
-			}
-		]
-	},
-	"contact_us": {
-		"name": "Contactez nous",
-		"posts":[
-			{
-				"name":"E-mail",
-				"content": "Chez Randomail on est sympa et on répond aux messages!<br />Vous pouvez nous contacter à contact@randomail.net si vous avez besoin de support, pour des feedbacks, si vous avez trouvé un bug, et que vous voulez nous dire bonjour."
-			},
-			{
-				"name":"Twitter",
-				"content": "Nous sommes également sur Twitter. Tweetez à <a href='http://twitter.com/randomailnet'>@randomailnet</a>."
-			},
-			{
-				"name":"IRL",
-				"content": "On aprécie nos utilisateurs, il nous arrive même d'en rencontrer! On est sur twitter <a href='http://twitter.com/baptistejamin'>@baptistejamin</a> & <a href='http://twitter.com/hugo_mro'>@hugo_mro</a>"
-			}
-		]
-	},
-	"terms":{
-		"name" : "Conditions & confidentialité",
-		"disclaimer" : "",
-		"intro" : "Randomail.net est un site internet personnel qui propose des redirections d'e-mails. Toute utilisation de nos 'services' implique l'acceptation de cette présente charte et la loi française. Nous nous réservons le droit de modifier la charte à tout moment. À chaque modification, un e-mail est en principe envoyé à chaque utilisateur. En cas de non acceptation des nouvelles clauses, l'utilisateur s'engage à supprimer son compte sur Randomail.net. Conformément aux articles 39 et suivants de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, toute personne peut obtenir communication et, le cas échéant, rectification ou suppression des informations la concernant. Ces modifications peuvent s'effectuer depuis la page membre.",
-		"terms_name" : "Règles d'utilisation",
-		"terms" : [
-			"L'utilisateur s'engage en s'inscrivant à fournir une adresse e-mail valide et doit être joignable via cette adresse.",
-			"Il est strictement interdit d'utiliser nos 'services' à des fins de terrorisme, pédophilie, violence, haine raciale, menaces, piratage, xénophobie, escroquerie et spam. ",
-			"L'utilisateur s'engage à respecter la loi française en vigueur. ",
-			"Nous déclinons toute responsabilité en cas de piratage de votre compte. De plus, l'utilisateur s'engage à utiliser un mot de passe suffisamment complexe afin eviter toute usurpation d'identité.",
-			"You must use our 'services' with fair use.",
-			"L'utilisation de nos 'services' se fait par le biais d'un usage raisonnable. ",
-			"Il est interdit de créer plusieurs comptes par personne physique et/ou morale. ",
-			"L'utilisateur accepte que ses données soient traitées par les administrateurs de Randomail.net pour des fins statistiques et de maintenance. D'autre part, l'utilisateur doit avoir conscience que les données renseignées sur son compte Randomail.net peuvent être stockées pour le bon fonctionnement."
-		],
-		"limitations_name": "Limites de responsabilité",
-		"Limitations" :[
-			"Randomail.net et/ou ses fondateurs n'a/n'ont en aucun cas obligation de résultat. L'utilisateur s'engage à ne pas poursuivre Randomail.net et/ou l'un de ses fondateurs en cas de défaut ou non acheminement d'un message ainsi qu'en cas de piratage. ",
-			"Randomail.net et/ou ses fondateurs ne peuvent être tenus responsables du contenu des messages ainsi que des pièces jointes. L'utilisateur est le seul responsable devant la loi de ses propos et du contenu de ses messages et de ses pièces jointes. ",
-			"De son côté, Randomail.net s'engage à tout mettre en oeuvre pour fournir un 'service' de qualité et à ne pas communiquer vos données à des tiers (sauf justice). Des sauvegardes sont en principe effectuées régulièrement."
-		],
-		"cancellation_name" : "Résiliation",
-		"cancellation" : "L'utilisateur peut à tout moment supprimer/résilier son compte en se connectant et en utilisant le système prévu à cet effet.  Après résiliation, les données de l'utilisateur sont déplacées dans une base de données dédiée pour une durée de trois mois. Ces données ne servent qu'en cas de saisie par la justice. Trois mois après résiliation, ces données sont supprimées.  Les redirections paraissent à vie dans la base de donnée y compris après résiliation. Ces mesures ont pour but d'éviter la réutilisation ultérieure de ces redirections par un tiers et ainsi qu'aucunes données personnelles ne puissent être dérobées. Certaines données telles que l'adresse e-mail du propriétaire ainsi que le libellé sont supprimées trois mois après la résiliation.  En cas de non respect de cette charte, Randomail.net se réserve le droit de supprimer votre compte et ces redirections sans préavis.  L'utilisateur ne pourra alors prétendre à aucun dédommagement et s'engage à ne pas poursuivre Randomail.net et/ou l'un de ses fondateurs. ",
-		"policy_privacy" : "Policy and privacy",
-		"collected_data_name" : "Données collectés",
-		"collected_data" : [
-			"Randomail.net enregistre votre adresse IP, ainsi que votre adresse e-mail. Randomail.net peut stocker également des cookies afin de maintenir les usagers qui le souhaitent connectés. Des cookies peuvent également être stockés par le biais de Google Analytics dans un usage anonyme et à des fins statistiques.",
-			"Les e-mails reçus sont traités par notre système et acheminés vers chaque destinataire. Certaines données telles que l'adresse e-mail de l'expéditeur et du destinataire peuvent être conservées. Ces données peuvent être utilisées en cas d'enquête judiciaire. Nous ne conservons cependant pas les messages et les pièces jointes.",
-			"Les données de connexions (logs) sont conservées pendant six mois pour des fins de statistiques. Ces données peuvent également être utilisées en cas d'enquête judiciaire."
-		],
-		"privacy_name" : "Confidentialité des données",
-		"pricacy" : [
-			"Randomail.net ne cède aucune données personnelles à des tiers à l'exception de saisies par la justice."
-		],
-		"data_deletion_name" : "Suppression des données",
-		"data_deletion" : [
-			"Conformément aux articles 39 et suivants de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, toute personne peut obtenir communication et, le cas échéant, rectification ou suppression des informations la concernant. Ces modifications peuvent s'effectuer depuis la page membre."
-		]
-
-	},
-	"footer" : {
-		"description" : "Créé en 2012, Randomail en est à sa 3e version avec plus de 8000 utilisateurs et 6 millions d'e-mails redirigés. Nous sommes un petit service et proches de nos utilisateurs. Si vous avez la moindre question, problème ou feedback, contactez nous via contact@randomail.net ou via twitter <a class='white-text' href='http://twitter.com/randomailnet'>@randomailnet</a>"
-	}
+  "lang": "fr",
+  "home": {
+    "name": "Acceuil",
+    "baseline": {
+      "h1": "Quand gérer des mails devient simple",
+      "h5": "Créez des centaines d'alias mail pour éviter le spam",
+      "btn": "Créer mon compte"
+    },
+    "e_mails_on_the_fly": {
+      "h5": "Créez plein d'emails",
+      "p": "Avec Randomail, il est possible de créer des centaines d'alias mail. Utilisez ces alias pour s'inscrire sur de nouveaux sites web. Il y a même une extension Google Chrome pour ça. Ceci permet d'éviter les fuites de données, et ça fonctionne très bien avec Lastpass et 1-Password."
+    },
+    "on_your_mailbox": {
+      "h5": "Recevez les sur votre boite mail",
+      "p": "Quand vous recevrez un mail sur un alias Randomail, il est renvoyé vers votre véritable e-mail(Gmail, Hotmail, etc). Vous pouvez mêmer répondre avec une adresse Randomail!"
+    },
+    "manage_it": {
+      "h5": "Gérez vos alias",
+      "p": "Vous pouvez même créer des alias avec votre propre domaine : moi@monnom.fr. Vous pouvez utiliser des règles de filtrage, le PGP. Vous pouvez même rediriger des alias vers plusieurs boites mail!"
+    },
+    "demo": "Randomail vous suit partout. Un marchand vous demande votre e-mail? Génerez un alias Randomail!",
+    "the_best": {
+      "h3": "La meilleure solution d'email jetable disponible",
+      "h5": "(Et si vous en trouvez une autre, dites le nous)"
+    },
+    "bottom_action": {
+      "h3": "C'est parti!",
+      "h5": "(Et vous ne le regreterez pas)",
+      "btn": "Créer mon compte"
+    }
+  },
+  "faq": {
+    "name": "F.A.Q",
+    "posts": [
+      {
+        "name": "C'est quoi un alias?",
+        "content": "Un alias, c'est une fausse adresse sur laquelle les gens peuvent envoyer des mail. Ces mails sont ensuties ré-envoyés vers votre véritable boite mail"
+      },
+      {
+        "name": "Pourquoi le premium?",
+        "content": "Randomail est un petit service, et nous avons besoin de le financer pour maintenir le service. Nous sommes également étudiants, et nous avons besoin de vivre ;)"
+      },
+      {
+        "name": "J'ai perdu mon mot de passe",
+        "content": "Il faut juste cliquer sur 'Mot de passe perdu' sur le dashboard",
+        "link": {
+          "name": "Voici le lien",
+          "href": "http://app.randomail.net/#/login"
+        }
+      },
+      {
+        "name": "Comment stopper les messages sur un alias?",
+        "content": "Il faut aller sur le dashboard, cliquer sur l'alias. Un menu va apparaitre et il faudra cliquer sur 'pause'. Les messages seront alors bloqués"
+      },
+      {
+        "name": "Comment avoir son propre nom de domaine?",
+        "content": "Il vous faut un compte premium. Ensuite, allez dans le dashboard, dans les paramètres (sur la droite), et dans l'onglet domaines, ajouter votre domaine. <br /> Quand votre domaine est ajouté, il faudra alors modifier les paramètres DNS chez votre fournisseur pour le domaine. Ceci  va lier votre domaine avec nos serveurs<br /> Si vous avez la moindre question, contactez le support"
+      },
+      {
+        "name": "Comment envoyer des messages anonymes (fonction a venir)",
+        "content": "Il vous faut un compte premium. Ensuite, utilisez votre webmail (Gmail), ou Thunderbird pour envoyer les mails, via nos servuers SMTP <br /> Si vous avez la moindre question, contactez le support."
+      },
+      {
+        "name": "Comment gérer plusieurs boite mails?",
+        "content": "Allez sur votre dashboard, et dans l'onglet paramètres (sur la droite), allez dans 'comptes'"
+      },
+      {
+        "name": "Ma question n'est pas dans la liste!",
+        "content": "Et bien il faut nous contacter :)",
+        "link": {
+          "name": "Support",
+          "href": "contact.html"
+        }
+      }
+    ]
+  },
+  "features": {
+    "name": "Fonctionnalités",
+    "demo": "Une app dispobilible pour tout le monde",
+    "plans": [
+      {
+        "name": "Lite",
+        "price": "Gratuit",
+        "features": [
+          "100 alias actifs",
+          "2 réponses / jour",
+          "Domaine par défaut (randomail.net)",
+          "Mutlicompte (1 autre compte)",
+          "Pas de SMTP",
+          "Pas de PGP",
+          "Règles  personnalisées",
+          "Auto-destruction",
+          "Filtre anti-spam"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "2€",
+        "features": [
+          "Alias illimités",
+          "<b>20 réponses / jour</b>",
+          "<b>2 domaines</b>",
+          "<b>Mutlicompte (10 autres comptes)</b>",
+          "Compte SMTP (à venir)",
+          "PGP (à venir)",
+          "Règles  personnalisées",
+          "Auto-destruction",
+          "Filtre anti-spam"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "8$",
+        "features": [
+          "Alias illimités",
+          "<b>Réponses illimitées</b>",
+          "<b>10 domaines</b>",
+          "<b>Mutlicompte (50 autres comptes)</b>",
+          "Compte SMTP (à venir)",
+          "PGP (à venir)",
+          "Règles  personnalisées",
+          "Auto-destruction",
+          "Filtre anti-spam"
+        ]
+      }
+    ]
+  },
+  "about_us": {
+    "name": "A propos",
+    "description": "Créé en 2012, Randomail en est à sa troisième version avec plus de 8000 utilisateurs et 6 millions d'e-mails redirigés",
+    "founders_h2": "Fondateurs",
+    "founders": [
+      {
+        "name": "Baptiste Jamin",
+        "img": "https://pbs.twimg.com/profile_images/378800000379050808/76c12398d0b8e03e2597fb087f33cb17.png",
+        "description": "Etudiant en école d'ingenieur, j'ai 21 ans. Je suis égalmenent freelancer. J'ai commencé Randomail à l'age de 18. Je suis le développeur et l'administrateur de la plateforme",
+        "twitter": "https://twitter.com/baptistejamin",
+        "linkedin": "https://www.linkedin.com/in/baptistejamin"
+      },
+      {
+        "name": "Hugo Mroczkowsi",
+        "img": "https://pbs.twimg.com/profile_images/550285742547939328/pIL6HSuz.jpeg",
+        "description": "J'ai 18 ans. Je suis maintenant à Lille et je suis égalmenent étudiant en école d'ingénieur. J'ai commencé Randomail à 16 ans.",
+        "twitter": "http://twitter.com/hugo_mro"
+      }
+    ],
+    "helpers_h2": "Ils nous ont aidé!",
+    "helpers": [
+      {
+        "name": "Quentin de Quelen",
+        "img": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/017/349/2152e81.jpg",
+        "description": "Fondateur de Yool, Quentin est développeur et designer. Il a créé le nouveau logo, et à participé à l'ergonomie de la nouvelle version. Merci!",
+        "twitter": "https://twitter.com/Quentin_dQ",
+        "linkedin": "https://www.linkedin.com/profile/view?id=230391388"
+      },
+      {
+        "name": "Lucas Tarasconi",
+        "img": "https://lh5.googleusercontent.com/-7zSmmWKaT6o/VMOq6OxjWuI/AAAAAAAABoQ/ZeRlFQEl8Ww/w709-h708-no/IMG_0121.JPG",
+        "description": "Lucas a créé les images de la video de Randomail. Merci!",
+        "twitter": "https://twitter.com/Farnots"
+      },
+      {
+        "name": "Mathieu Mescam",
+        "img": "https://pbs.twimg.com/profile_images/497740695398936579/0vQow8D6.jpeg",
+        "description": "Mathieu a fait quelques commits sur la nouvelle version de Randomail. Merci!",
+        "twitter": "https://twitter.com/mescamm",
+        "linkedin": "https://www.linkedin.com/profile/view?id=293734131"
+      },
+      {
+        "name": "Insy",
+        "img": "https://avatars1.githubusercontent.com/u/158872?v=3&s=400",
+        "description": "Administrateur système, il a fait quelques commits sur la version 2 de Randomail. Merci!",
+        "twitter": "https://twitter.com/sd2310"
+      },
+      {
+        "name": "Valérian Saliou",
+        "img": "https://s.gravatar.com/avatar/b4cb8302ee37f985cc76190aaae1b40b?s=400",
+        "description": "Fondateur de Jappix, il a fait quelques commits sur la version 3 de Randomail. Merci!",
+        "twitter": "https://twitter.com/valeriansaliou",
+        "linkedin": "https://www.linkedin.com/profile/view?id=334865135"
+      }
+    ]
+  },
+  "contact_us": {
+    "name": "Contactez nous",
+    "posts": [
+      {
+        "name": "E-mail",
+        "content": "Chez Randomail on est sympa et on répond aux messages!<br />Vous pouvez nous contacter à contact@randomail.net si vous avez besoin de support, pour des feedbacks, si vous avez trouvé un bug, et que vous voulez nous dire bonjour."
+      },
+      {
+        "name": "Twitter",
+        "content": "Nous sommes également sur Twitter. Tweetez à <a href='http://twitter.com/randomailnet'>@randomailnet</a>."
+      },
+      {
+        "name": "IRL",
+        "content": "On aprécie nos utilisateurs, il nous arrive même d'en rencontrer! On est sur twitter <a href='http://twitter.com/baptistejamin'>@baptistejamin</a> & <a href='http://twitter.com/hugo_mro'>@hugo_mro</a>"
+      }
+    ]
+  },
+  "terms": {
+    "name": "Conditions & confidentialité",
+    "disclaimer": "",
+    "intro": "Randomail.net est un site internet personnel qui propose des redirections d'e-mails. Toute utilisation de nos 'services' implique l'acceptation de cette présente charte et la loi française. Nous nous réservons le droit de modifier la charte à tout moment. À chaque modification, un e-mail est en principe envoyé à chaque utilisateur. En cas de non acceptation des nouvelles clauses, l'utilisateur s'engage à supprimer son compte sur Randomail.net. Conformément aux articles 39 et suivants de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, toute personne peut obtenir communication et, le cas échéant, rectification ou suppression des informations la concernant. Ces modifications peuvent s'effectuer depuis la page membre.",
+    "terms_name": "Règles d'utilisation",
+    "terms": [
+      "L'utilisateur s'engage en s'inscrivant à fournir une adresse e-mail valide et doit être joignable via cette adresse.",
+      "Il est strictement interdit d'utiliser nos 'services' à des fins de terrorisme, pédophilie, violence, haine raciale, menaces, piratage, xénophobie, escroquerie et spam. ",
+      "L'utilisateur s'engage à respecter la loi française en vigueur. ",
+      "Nous déclinons toute responsabilité en cas de piratage de votre compte. De plus, l'utilisateur s'engage à utiliser un mot de passe suffisamment complexe afin eviter toute usurpation d'identité.",
+      "You must use our 'services' with fair use.",
+      "L'utilisation de nos 'services' se fait par le biais d'un usage raisonnable. ",
+      "Il est interdit de créer plusieurs comptes par personne physique et/ou morale. ",
+      "L'utilisateur accepte que ses données soient traitées par les administrateurs de Randomail.net pour des fins statistiques et de maintenance. D'autre part, l'utilisateur doit avoir conscience que les données renseignées sur son compte Randomail.net peuvent être stockées pour le bon fonctionnement."
+    ],
+    "limitations_name": "Limites de responsabilité",
+    "Limitations": [
+      "Randomail.net et/ou ses fondateurs n'a/n'ont en aucun cas obligation de résultat. L'utilisateur s'engage à ne pas poursuivre Randomail.net et/ou l'un de ses fondateurs en cas de défaut ou non acheminement d'un message ainsi qu'en cas de piratage. ",
+      "Randomail.net et/ou ses fondateurs ne peuvent être tenus responsables du contenu des messages ainsi que des pièces jointes. L'utilisateur est le seul responsable devant la loi de ses propos et du contenu de ses messages et de ses pièces jointes. ",
+      "De son côté, Randomail.net s'engage à tout mettre en oeuvre pour fournir un 'service' de qualité et à ne pas communiquer vos données à des tiers (sauf justice). Des sauvegardes sont en principe effectuées régulièrement."
+    ],
+    "cancellation_name": "Résiliation",
+    "cancellation": "L'utilisateur peut à tout moment supprimer/résilier son compte en se connectant et en utilisant le système prévu à cet effet.  Après résiliation, les données de l'utilisateur sont déplacées dans une base de données dédiée pour une durée de trois mois. Ces données ne servent qu'en cas de saisie par la justice. Trois mois après résiliation, ces données sont supprimées.  Les redirections paraissent à vie dans la base de donnée y compris après résiliation. Ces mesures ont pour but d'éviter la réutilisation ultérieure de ces redirections par un tiers et ainsi qu'aucunes données personnelles ne puissent être dérobées. Certaines données telles que l'adresse e-mail du propriétaire ainsi que le libellé sont supprimées trois mois après la résiliation.  En cas de non respect de cette charte, Randomail.net se réserve le droit de supprimer votre compte et ces redirections sans préavis.  L'utilisateur ne pourra alors prétendre à aucun dédommagement et s'engage à ne pas poursuivre Randomail.net et/ou l'un de ses fondateurs. ",
+    "policy_privacy": "Policy and privacy",
+    "collected_data_name": "Données collectés",
+    "collected_data": [
+      "Randomail.net enregistre votre adresse IP, ainsi que votre adresse e-mail. Randomail.net peut stocker également des cookies afin de maintenir les usagers qui le souhaitent connectés. Des cookies peuvent également être stockés par le biais de Google Analytics dans un usage anonyme et à des fins statistiques.",
+      "Les e-mails reçus sont traités par notre système et acheminés vers chaque destinataire. Certaines données telles que l'adresse e-mail de l'expéditeur et du destinataire peuvent être conservées. Ces données peuvent être utilisées en cas d'enquête judiciaire. Nous ne conservons cependant pas les messages et les pièces jointes.",
+      "Les données de connexions (logs) sont conservées pendant six mois pour des fins de statistiques. Ces données peuvent également être utilisées en cas d'enquête judiciaire."
+    ],
+    "privacy_name": "Confidentialité des données",
+    "pricacy": [
+      "Randomail.net ne cède aucune données personnelles à des tiers à l'exception de saisies par la justice."
+    ],
+    "data_deletion_name": "Suppression des données",
+    "data_deletion": [
+      "Conformément aux articles 39 et suivants de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, toute personne peut obtenir communication et, le cas échéant, rectification ou suppression des informations la concernant. Ces modifications peuvent s'effectuer depuis la page membre."
+    ]
+  },
+  "footer": {
+    "description": "Créé en 2012, Randomail en est à sa 3e version avec plus de 8000 utilisateurs et 6 millions d'e-mails redirigés. Nous sommes un petit service et proches de nos utilisateurs. Si vous avez la moindre question, problème ou feedback, contactez nous via contact@randomail.net ou via twitter <a class='white-text' href='http://twitter.com/randomailnet'>@randomailnet</a>"
+  }
 }
