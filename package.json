@@ -2,7 +2,7 @@
   "name": "Randomail Homepage",
   "version": "0.0.5",
   "description": "",
-  "main": "index.htmp",
+  "main": "index.html",
   "directories": {
     "app": "app"
   },

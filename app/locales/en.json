@@ -46,7 +46,7 @@
 				"content": "Just click 'Forgot your password' on the dashboard",
 				"link": {
 					"name" : "Here is the link to recover it.",
-					"href" : "http://dashboard.randomail.net/#/login"
+					"href" : "http://app.randomail.net/#/login"
 				}
 			},
 			{

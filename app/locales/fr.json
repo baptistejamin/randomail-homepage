@@ -46,7 +46,7 @@
 				"content": "Il faut juste cliquer sur 'Mot de passe perdu' sur le dashboard",
 				"link": {
 					"name" : "Voici le lien",
-					"href" : "http://dashboard.randomail.net/#/login"
+					"href" : "http://app.randomail.net/#/login"
 				}
 			},
 			{
