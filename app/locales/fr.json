@@ -51,7 +51,7 @@
       },
       {
         "name": "Comment stopper les messages sur un alias?",
-        "content": "Il faut aller sur le dashboard, cliquer sur l'alias. Un menu va apparaitre et il faudra cliquer sur 'pause'. Les messages seront alors bloqués"
+        "content": "Il faSut aller sur le dashboard, cliquer sur l'alias. Un menu va apparaitre et il faudra cliquer sur 'pause'. Les messages seront alors bloqués"
       },
       {
         "name": "Comment avoir son propre nom de domaine?",
@@ -59,7 +59,7 @@
       },
       {
         "name": "Comment envoyer des messages anonymes (fonction a venir)",
-        "content": "Il vous faut un compte premium. Ensuite, utilisez votre webmail (Gmail), ou Thunderbird pour envoyer les mails, via nos servuers SMTP <br /> Si vous avez la moindre question, contactez le support."
+        "content": "Il vous faut un compte premium. Ensuite, utilisez votre webmail (Gmail), ou Thunderbird pour envoyer les mails, via nos serveurs SMTP <br /> Si vous avez la moindre question, contactez le support."
       },
       {
         "name": "Comment gérer plusieurs boite mails?",
