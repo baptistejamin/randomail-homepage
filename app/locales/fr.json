@@ -1,9 +1,9 @@
 {
   "lang": "fr",
   "home": {
-    "name": "Acceuil",
+    "name": "Accueil",
     "baseline": {
-      "h1": "Quand gérer des mails devient simple",
+      "h1": "Quand gérer ses mails devient simple",
       "h5": "Créez des centaines d'alias mail pour éviter le spam",
       "btn": "Créer mon compte"
     },
@@ -12,7 +12,7 @@
       "p": "Avec Randomail, il est possible de créer des centaines d'alias mail. Utilisez ces alias pour s'inscrire sur de nouveaux sites web. Il y a même une extension Google Chrome pour ça. Ceci permet d'éviter les fuites de données, et ça fonctionne très bien avec Lastpass et 1-Password."
     },
     "on_your_mailbox": {
-      "h5": "Recevez les sur votre boite mail",
+      "h5": "Recevez les sur votre boîte mail",
       "p": "Quand vous recevrez un mail sur un alias Randomail, il est renvoyé vers votre véritable e-mail(Gmail, Hotmail, etc). Vous pouvez mêmer répondre avec une adresse Randomail!"
     },
     "manage_it": {
@@ -77,7 +77,7 @@
   },
   "features": {
     "name": "Fonctionnalités",
-    "demo": "Une app dispobilible pour tout le monde",
+    "demo": "Une app disponible pour tout le monde",
     "plans": [
       {
         "name": "Lite",
