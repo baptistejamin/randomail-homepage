@@ -35,7 +35,7 @@
     "posts": [
       {
         "name": "C'est quoi un alias?",
-        "content": "Un alias, c'est une fausse adresse sur laquelle les gens peuvent envoyer des mail. Ces mails sont ensuties ré-envoyés vers votre véritable boite mail"
+        "content": "Un alias, c'est une fausse adresse sur laquelle les gens peuvent envoyer des mail. Ces mails sont ensuite ré-envoyés vers votre véritable boite mail"
       },
       {
         "name": "Pourquoi le premium?",
@@ -51,7 +51,7 @@
       },
       {
         "name": "Comment stopper les messages sur un alias?",
-        "content": "Il faSut aller sur le dashboard, cliquer sur l'alias. Un menu va apparaitre et il faudra cliquer sur 'pause'. Les messages seront alors bloqués"
+        "content": "Il faut aller sur le dashboard, cliquer sur l'alias. Un menu va apparaitre et il faudra cliquer sur 'pause'. Les messages seront alors bloqués"
       },
       {
         "name": "Comment avoir son propre nom de domaine?",
