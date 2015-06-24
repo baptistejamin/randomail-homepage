@@ -13,7 +13,7 @@
     },
     "on_your_mailbox": {
       "h5": "Recevez les sur votre boîte mail",
-      "p": "Quand vous recevrez un mail sur un alias Randomail, il est renvoyé vers votre véritable e-mail(Gmail, Hotmail, etc). Vous pouvez mêmer répondre avec une adresse Randomail!"
+      "p": "Quand vous recevez un mail sur un alias Randomail, il est renvoyé vers votre véritable e-mail (Gmail, Hotmail, etc). Vous pouvez même répondre avec une adresse Randomail!"
     },
     "manage_it": {
       "h5": "Gérez vos alias",
