@@ -9,7 +9,7 @@ This project uses `materializecss` and and is multilingual.
 In a terminal:
 
 ```
-npm install install -g grunt bower
+npm install -g grunt bower
 cd app && bower install
 cd ../ && grunt
 ```
