@@ -19,7 +19,7 @@
       "h5": "Gérez vos alias",
       "p": "Vous pouvez même créer des alias avec votre propre domaine : moi@monnom.fr. Vous pouvez utiliser des règles de filtrage, le PGP. Vous pouvez même rediriger des alias vers plusieurs boites mail !"
     },
-    "demo": "Randomail vous suit partout. Un marchand vous demande votre e-mail? Génerez un alias Randomail !",
+    "demo": "Randomail vous suit partout. Un marchand vous demande votre e-mail ? Génerez un alias Randomail !",
     "the_best": {
       "h3": "La meilleure solution d'email jetable disponible",
       "h5": "(Et si vous en trouvez une autre, dites le nous)"
@@ -34,11 +34,11 @@
     "name": "F.A.Q",
     "posts": [
       {
-        "name": "C'est quoi un alias?",
+        "name": "C'est quoi un alias ?",
         "content": "Un alias, c'est une fausse adresse sur laquelle les gens peuvent envoyer des mail. Ces mails sont ensuite ré-envoyés vers votre véritable boite mail"
       },
       {
-        "name": "Pourquoi le premium?",
+        "name": "Pourquoi le premium ?",
         "content": "Randomail est un petit service, et nous avons besoin de le financer pour maintenir le service. Nous sommes également étudiants, et nous avons besoin de vivre ;)"
       },
       {
@@ -50,11 +50,11 @@
         }
       },
       {
-        "name": "Comment stopper les messages sur un alias?",
+        "name": "Comment stopper les messages sur un alias ?",
         "content": "Il faut aller sur le dashboard, cliquer sur l'alias. Un menu va apparaitre et il faudra cliquer sur 'pause'. Les messages seront alors bloqués"
       },
       {
-        "name": "Comment avoir son propre nom de domaine?",
+        "name": "Comment avoir son propre nom de domaine ?",
         "content": "Il vous faut un compte premium. Ensuite, allez dans le dashboard, dans les paramètres (sur la droite), et dans l'onglet domaines, ajouter votre domaine. <br /> Quand votre domaine est ajouté, il faudra alors modifier les paramètres DNS chez votre fournisseur pour le domaine. Ceci  va lier votre domaine avec nos serveurs<br /> Si vous avez la moindre question, contactez le support"
       },
       {
@@ -62,7 +62,7 @@
         "content": "Il vous faut un compte premium. Ensuite, utilisez votre webmail (Gmail), ou Thunderbird pour envoyer les mails, via nos serveurs SMTP <br /> Si vous avez la moindre question, contactez le support."
       },
       {
-        "name": "Comment gérer plusieurs boite mails?",
+        "name": "Comment gérer plusieurs boite mails ?",
         "content": "Allez sur votre dashboard, et dans l'onglet paramètres (sur la droite), allez dans 'comptes'"
       },
       {
