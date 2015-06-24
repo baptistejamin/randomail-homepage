@@ -13,19 +13,19 @@
     },
     "on_your_mailbox": {
       "h5": "Recevez les sur votre boîte mail",
-      "p": "Quand vous recevez un mail sur un alias Randomail, il est renvoyé vers votre véritable e-mail (Gmail, Hotmail, etc). Vous pouvez même répondre avec une adresse Randomail!"
+      "p": "Quand vous recevez un mail sur un alias Randomail, il est renvoyé vers votre véritable e-mail (Gmail, Hotmail, etc). Vous pouvez même répondre avec une adresse Randomail !"
     },
     "manage_it": {
       "h5": "Gérez vos alias",
-      "p": "Vous pouvez même créer des alias avec votre propre domaine : moi@monnom.fr. Vous pouvez utiliser des règles de filtrage, le PGP. Vous pouvez même rediriger des alias vers plusieurs boites mail!"
+      "p": "Vous pouvez même créer des alias avec votre propre domaine : moi@monnom.fr. Vous pouvez utiliser des règles de filtrage, le PGP. Vous pouvez même rediriger des alias vers plusieurs boites mail !"
     },
-    "demo": "Randomail vous suit partout. Un marchand vous demande votre e-mail? Génerez un alias Randomail!",
+    "demo": "Randomail vous suit partout. Un marchand vous demande votre e-mail? Génerez un alias Randomail !",
     "the_best": {
       "h3": "La meilleure solution d'email jetable disponible",
       "h5": "(Et si vous en trouvez une autre, dites le nous)"
     },
     "bottom_action": {
-      "h3": "C'est parti!",
+      "h3": "C'est parti !",
       "h5": "(Et vous ne le regreterez pas)",
       "btn": "Créer mon compte"
     }
@@ -66,7 +66,7 @@
         "content": "Allez sur votre dashboard, et dans l'onglet paramètres (sur la droite), allez dans 'comptes'"
       },
       {
-        "name": "Ma question n'est pas dans la liste!",
+        "name": "Ma question n'est pas dans la liste !",
         "content": "Et bien il faut nous contacter :)",
         "link": {
           "name": "Support",
@@ -145,38 +145,38 @@
         "twitter": "http://twitter.com/hugo_mro"
       }
     ],
-    "helpers_h2": "Ils nous ont aidé!",
+    "helpers_h2": "Ils nous ont aidé !",
     "helpers": [
       {
         "name": "Quentin de Quelen",
         "img": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/017/349/2152e81.jpg",
-        "description": "Fondateur de Yool, Quentin est développeur et designer. Il a créé le nouveau logo, et à participé à l'ergonomie de la nouvelle version. Merci!",
+        "description": "Fondateur de Yool, Quentin est développeur et designer. Il a créé le nouveau logo, et à participé à l'ergonomie de la nouvelle version. Merci !",
         "twitter": "https://twitter.com/Quentin_dQ",
         "linkedin": "https://www.linkedin.com/profile/view?id=230391388"
       },
       {
         "name": "Lucas Tarasconi",
         "img": "https://lh5.googleusercontent.com/-7zSmmWKaT6o/VMOq6OxjWuI/AAAAAAAABoQ/ZeRlFQEl8Ww/w709-h708-no/IMG_0121.JPG",
-        "description": "Lucas a créé les images de la video de Randomail. Merci!",
+        "description": "Lucas a créé les images de la video de Randomail. Merci !",
         "twitter": "https://twitter.com/Farnots"
       },
       {
         "name": "Mathieu Mescam",
         "img": "https://pbs.twimg.com/profile_images/497740695398936579/0vQow8D6.jpeg",
-        "description": "Mathieu a fait quelques commits sur la nouvelle version de Randomail. Merci!",
+        "description": "Mathieu a fait quelques commits sur la nouvelle version de Randomail. Merci !",
         "twitter": "https://twitter.com/mescamm",
         "linkedin": "https://www.linkedin.com/profile/view?id=293734131"
       },
       {
         "name": "Insy",
         "img": "https://avatars1.githubusercontent.com/u/158872?v=3&s=400",
-        "description": "Administrateur système, il a fait quelques commits sur la version 2 de Randomail. Merci!",
+        "description": "Administrateur système, il a fait quelques commits sur la version 2 de Randomail. Merci !",
         "twitter": "https://twitter.com/sd2310"
       },
       {
         "name": "Valérian Saliou",
         "img": "https://s.gravatar.com/avatar/b4cb8302ee37f985cc76190aaae1b40b?s=400",
-        "description": "Fondateur de Jappix, il a fait quelques commits sur la version 3 de Randomail. Merci!",
+        "description": "Fondateur de Jappix, il a fait quelques commits sur la version 3 de Randomail. Merci !",
         "twitter": "https://twitter.com/valeriansaliou",
         "linkedin": "https://www.linkedin.com/profile/view?id=334865135"
       }
@@ -187,7 +187,7 @@
     "posts": [
       {
         "name": "E-mail",
-        "content": "Chez Randomail on est sympa et on répond aux messages!<br />Vous pouvez nous contacter à contact@randomail.net si vous avez besoin de support, pour des feedbacks, si vous avez trouvé un bug, et que vous voulez nous dire bonjour."
+        "content": "Chez Randomail on est sympa et on répond aux messages !<br />Vous pouvez nous contacter à contact@randomail.net si vous avez besoin de support, pour des feedbacks, si vous avez trouvé un bug, et que vous voulez nous dire bonjour."
       },
       {
         "name": "Twitter",
@@ -195,7 +195,7 @@
       },
       {
         "name": "IRL",
-        "content": "On aprécie nos utilisateurs, il nous arrive même d'en rencontrer! On est sur twitter <a href='http://twitter.com/baptistejamin'>@baptistejamin</a> & <a href='http://twitter.com/hugo_mro'>@hugo_mro</a>"
+        "content": "On aprécie nos utilisateurs, il nous arrive même d'en rencontrer ! On est sur twitter <a href='http://twitter.com/baptistejamin'>@baptistejamin</a> & <a href='http://twitter.com/hugo_mro'>@hugo_mro</a>"
       }
     ]
   },
